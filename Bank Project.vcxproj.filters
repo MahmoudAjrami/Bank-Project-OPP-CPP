@@ -28,11 +28,11 @@
     <Filter Include="Header Files\Screens\Currency">
       <UniqueIdentifier>{bc23a69c-0d02-4e83-86c8-90b24108fd23}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Screens\Client\Transation">
-      <UniqueIdentifier>{afdd0c87-8d8f-4330-b379-968ad56e7973}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Lib">
       <UniqueIdentifier>{62fbf2f5-cd40-44bf-abe6-f0115519d41c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Client\Transaction">
+      <UniqueIdentifier>{afdd0c87-8d8f-4330-b379-968ad56e7973}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -87,19 +87,19 @@
       <Filter>Header Files\Screens\User</Filter>
     </ClInclude>
     <ClInclude Include="clsWithdrawScreen.h">
-      <Filter>Header Files\Screens\Client\Transation</Filter>
+      <Filter>Header Files\Screens\Client\Transaction</Filter>
     </ClInclude>
     <ClInclude Include="clsTransferScreen.h">
-      <Filter>Header Files\Screens\Client\Transation</Filter>
+      <Filter>Header Files\Screens\Client\Transaction</Filter>
     </ClInclude>
     <ClInclude Include="clsTransferLogScreen.h">
-      <Filter>Header Files\Screens\Client\Transation</Filter>
+      <Filter>Header Files\Screens\Client\Transaction</Filter>
     </ClInclude>
     <ClInclude Include="clsTotalBalancesScreen.h">
-      <Filter>Header Files\Screens\Client\Transation</Filter>
+      <Filter>Header Files\Screens\Client\Transaction</Filter>
     </ClInclude>
     <ClInclude Include="clsDepositScreen.h">
-      <Filter>Header Files\Screens\Client\Transation</Filter>
+      <Filter>Header Files\Screens\Client\Transaction</Filter>
     </ClInclude>
     <ClInclude Include="clsLoginRegisterScreen.h">
       <Filter>Header Files\Screens\User</Filter>
@@ -129,7 +129,7 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="clsTransactionsScreen.h">
-      <Filter>Header Files\Screens\Client\Transation</Filter>
+      <Filter>Header Files\Screens\Client\Transaction</Filter>
     </ClInclude>
     <ClInclude Include="clsMainScreen.h">
       <Filter>Header Files\Screens</Filter>
