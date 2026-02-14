@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mahmo\\source\\repos\\Course11\\Bank ProjectT\\Bank Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mahmo\\source\\repos\\Course11\\Bank Project\\Bank Project\\Bank Project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mahmo\\source\\repos\\Course11\\Bank Project\\Bank Project\\clsUser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mahmo\\source\\repos\\Course11\\Bank Project\\Bank Project\\clsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bank Project.cpp",
+              "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\Course11\\Bank Project\\Bank Project\\Bank Project.cpp",
+              "RelativeDocumentMoniker": "..\\..\\Bank Project\\Bank Project\\Bank Project.cpp",
+              "ToolTip": "C:\\Users\\mahmo\\source\\repos\\Course11\\Bank Project\\Bank Project\\Bank Project.cpp",
+              "RelativeToolTip": "..\\..\\Bank Project\\Bank Project\\Bank Project.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-06T12:39:24.728Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsUser.h",
+              "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\Course11\\Bank Project\\Bank Project\\clsUser.h",
+              "RelativeDocumentMoniker": "..\\..\\Bank Project\\Bank Project\\clsUser.h",
+              "ToolTip": "C:\\Users\\mahmo\\source\\repos\\Course11\\Bank Project\\Bank Project\\clsUser.h",
+              "RelativeToolTip": "..\\..\\Bank Project\\Bank Project\\clsUser.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-18T13:47:52.858Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsScreen.h",
+              "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\Course11\\Bank Project\\Bank Project\\clsScreen.h",
+              "RelativeDocumentMoniker": "..\\..\\Bank Project\\Bank Project\\clsScreen.h",
+              "ToolTip": "C:\\Users\\mahmo\\source\\repos\\Course11\\Bank Project\\Bank Project\\clsScreen.h",
+              "RelativeToolTip": "..\\..\\Bank Project\\Bank Project\\clsScreen.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-22T09:25:12.593Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

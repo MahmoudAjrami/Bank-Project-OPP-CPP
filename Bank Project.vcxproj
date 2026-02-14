@@ -105,6 +105,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)Libs;$(ProjectDir)Core;$(ProjectDir)Screens;$(ProjectDir)Data;$(ProjectDir)Screens/Client;$(ProjectDir)Screens/Client/Transactions;$(ProjectDir)Screens/Currency;$(ProjectDir)Screens/User</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -131,38 +132,43 @@
     <ClCompile Include="Bank Project.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="clsAddNewClientScreen.h" />
-    <ClInclude Include="clsAddNewUserScreen.h" />
-    <ClInclude Include="clsBankClient.h" />
-    <ClInclude Include="clsClientListScreen.h" />
-    <ClInclude Include="clsCurrenciesListScreen.h" />
-    <ClInclude Include="clsCurrency.h" />
-    <ClInclude Include="clsCurrencyCalculatorScreen.h" />
-    <ClInclude Include="clsCurrencyExchangeMainScreen.h" />
-    <ClInclude Include="clsDeleteClientScreen.h" />
-    <ClInclude Include="clsDeleteUserScreen.h" />
-    <ClInclude Include="clsDepositScreen.h" />
-    <ClInclude Include="clsFindClientScreen.h" />
-    <ClInclude Include="clsFindCurrencyScreen.h" />
-    <ClInclude Include="clsFindUserScreen.h" />
-    <ClInclude Include="clsListUsersScreen.h" />
-    <ClInclude Include="clsLoginRegisterScreen.h" />
-    <ClInclude Include="clsLoginScreen.h" />
-    <ClInclude Include="clsMainScreen.h" />
-    <ClInclude Include="clsMangeUsersScreen.h" />
-    <ClInclude Include="clsPerson.h" />
-    <ClInclude Include="clsScreen.h" />
-    <ClInclude Include="clsTotalBalancesScreen.h" />
-    <ClInclude Include="clsTransferLogScreen.h" />
-    <ClInclude Include="clsTransferScreen.h" />
-    <ClInclude Include="clsUpdateCurrencyRateScreen.h" />
-    <ClInclude Include="clsUpdateUserScreen.h" />
-    <ClInclude Include="clsUser.h" />
-    <ClInclude Include="clsWithdrawScreen.h" />
-    <ClInclude Include="clsTransactionsScreen.h" />
-    <ClInclude Include="clsUpdateClientScreen.h" />
-    <ClInclude Include="Global.h" />
-    <ClInclude Include="InterfaceComunication.h" />
+    <ClInclude Include="Core\clsBankClient.h" />
+    <ClInclude Include="Core\clsCurrency.h" />
+    <ClInclude Include="Core\clsPerson.h" />
+    <ClInclude Include="Core\clsUser.h" />
+    <ClInclude Include="Core\Global.h" />
+    <ClInclude Include="Core\InterfaceComunication.h" />
+    <ClInclude Include="Libs\clsDate.h" />
+    <ClInclude Include="Libs\clsInputValidate.h" />
+    <ClInclude Include="Libs\clsPeriod.h" />
+    <ClInclude Include="Libs\clsString.h" />
+    <ClInclude Include="Libs\clsUtil.h" />
+    <ClInclude Include="Screens\Client\clsAddNewClientScreen.h" />
+    <ClInclude Include="Screens\Client\clsClientListScreen.h" />
+    <ClInclude Include="Screens\Client\clsDeleteClientScreen.h" />
+    <ClInclude Include="Screens\Client\clsFindClientScreen.h" />
+    <ClInclude Include="Screens\Client\clsUpdateClientScreen.h" />
+    <ClInclude Include="Screens\Client\Transactions\clsDepositScreen.h" />
+    <ClInclude Include="Screens\Client\Transactions\clsTotalBalancesScreen.h" />
+    <ClInclude Include="Screens\Client\Transactions\clsTransactionsScreen.h" />
+    <ClInclude Include="Screens\Client\Transactions\clsTransferLogScreen.h" />
+    <ClInclude Include="Screens\Client\Transactions\clsTransferScreen.h" />
+    <ClInclude Include="Screens\Client\Transactions\clsWithdrawScreen.h" />
+    <ClInclude Include="Screens\clsMainScreen.h" />
+    <ClInclude Include="Screens\clsScreen.h" />
+    <ClInclude Include="Screens\Currency\clsCurrenciesListScreen.h" />
+    <ClInclude Include="Screens\Currency\clsCurrencyCalculatorScreen.h" />
+    <ClInclude Include="Screens\Currency\clsCurrencyExchangeMainScreen.h" />
+    <ClInclude Include="Screens\Currency\clsFindCurrencyScreen.h" />
+    <ClInclude Include="Screens\Currency\clsUpdateCurrencyRateScreen.h" />
+    <ClInclude Include="Screens\User\clsAddNewUserScreen.h" />
+    <ClInclude Include="Screens\User\clsDeleteUserScreen.h" />
+    <ClInclude Include="Screens\User\clsFindUserScreen.h" />
+    <ClInclude Include="Screens\User\clsListUsersScreen.h" />
+    <ClInclude Include="Screens\User\clsLoginRegisterScreen.h" />
+    <ClInclude Include="Screens\User\clsLoginScreen.h" />
+    <ClInclude Include="Screens\User\clsMangeUsersScreen.h" />
+    <ClInclude Include="Screens\User\clsUpdateUserScreen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
