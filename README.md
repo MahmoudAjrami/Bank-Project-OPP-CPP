@@ -15,7 +15,7 @@ A console-based Bank Management System implemented in **C++** using **Object-Ori
 ---
 
 ## 🗂️ Project Structure
-
+```
 Bank Project/
 ├─ Core/
 ├─ Screens/
